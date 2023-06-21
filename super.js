@@ -20,7 +20,10 @@ async function search(name) {
   );
 
   const data = await response.text();
-  const formattedData = data.replace(/\n/g, "").replace(/\\/g, "");
+  const formattedData = data
+    .replace(/\\"/g, "")
+    .replace(/\n/g, "")
+    .replace(/\\/g, "");
   fs.writeFile("super.json", formattedData);
   return formattedData;
 }
