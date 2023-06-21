@@ -1,14 +1,17 @@
 {
   "type": "module",
-  "name": "astro",
+  "name": "SuperHero and SuperVillain bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "This bot can help you to find several superheroes and supervillains ever created in this universe. You can see their details such as Powerstats, Appearance, Biography, Image etc.
+Once you have found your favourite superhero or supervillain don’t forget to share with your friends and other groups 😃. 
+Made with ❤ by Caspian and Aniruddha.",
+  "main": "super.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node super.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Caspian Musk and Aniruddha",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
