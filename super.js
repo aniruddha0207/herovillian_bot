@@ -115,6 +115,8 @@ const searchHandler = new Scenes.WizardScene(
             } catch (e) {
               console.error(e);
             }
+          } else {
+            ctx.scene.leave();
           }
         } catch (e) {
           console.error(e);
